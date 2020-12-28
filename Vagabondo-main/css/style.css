@@ -1,0 +1,214 @@
+*{
+	text-decoration: none;
+
+}
+.main-wrapper{
+	background-color: #070707;
+
+}
+.wrapper{
+	background-color: black;
+}
+.header-wrapper{
+	background: rgba(0,0,0,1);
+
+}
+.menu-text{
+	font-family: 'Merienda One', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #FDDDB9;
+	font-border: 1px solid #1C1C31;
+}
+
+nav a{
+	transition: 2s linear;
+}
+
+.navigationBar{
+	margin-bottom: auto;
+	margin-top: auto;
+	vertical-align: middle;
+}
+.mobile-navigationBar{
+	display: none;
+}
+li{
+	list-style-type: none;
+}
+ul{
+	list-style-type: none;
+}
+.main-menu a:hover > img{
+	visibility: hidden;
+}
+
+
+.drop-down-menu{
+	grid-column: 1/4;
+	visibility: hidden;
+	display: none;
+	/*width: 150px;
+	height: 182px;*/
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+	border: 1px dashed #fdddb9;
+	z-index: 2;
+	background: #191919;
+	/* border-top-style: dashed; */
+}
+
+.ddmenu-text{
+	font-family: 'Merienda One', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #fdddb9;
+
+	font-border: 1px solid #1C1C31;
+}
+.drop-down-menu li{
+	font-size: 18px;
+
+}
+.main-menu:hover img{
+	visibility: hidden;
+}
+.topmenu li:hover > .drop-down-menu,
+.topmenu li .drop-down-menu:hover{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+
+.topmenu li .drop-down-menu li{
+	clear: both;
+	width: 100%;
+	text-align: center;
+
+}
+.ddmenu-text:hover{
+	text-decoration: underline;
+	background: #fdddb9;
+	color: #970029;
+}
+.main-menu:hover .menu-text{
+	text-decoration: underline;
+}
+.banner{
+	background-color: black;
+}
+.slogan{
+	color: #FDDDB9;
+	font-family: 'Merienda One', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 43px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.button {
+	width: 160px;
+	height: 40px;
+	left: 105px;
+	top: 293px;
+
+	background: #191919;
+	box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 2px;
+	border: 1px solid #000000;
+}
+.button-text{
+	font-family: 'Merienda One', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+
+	color: #FDDDB9;
+}
+.button:hover {
+	background: #FDDDB9;
+}
+.button:hover .button-text{
+	color: #970029;
+}
+
+.button{
+	text-align: center;
+}
+
+.schedule, .book, .info,.artists{
+	display: none;
+}
+h2{
+	font-family: 'Merienda One', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 66px;
+	text-transform: uppercase;
+	color: #970029;
+}
+
+.news-block{
+	text-align: center;
+}
+.news-header a{
+	font-family: 'Lora', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+
+	color: #FDDDB9;
+}
+.news-header a:hover{
+	color: #970029;
+}
+.more-news{
+	color: #FDDDB9;
+	font-family: 'Lora', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.more-news:hover{
+	color: #970029;
+}
+.popup-wrapper{
+	display: none;
+}
+.footer-text{
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	color: #FDDDB9;
+}
+.popup-button{
+	font-size: 14px;
+}
+.popup-button:hover{
+	color: #970029;
+}
+.social-network{min-width: auto;max-width: 93px;}
+.social-networks{
+	width: 100%;
+}
+.banner-pic-mobile, .abstraction-mobile{
+	display: none;
+}

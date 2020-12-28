@@ -1,0 +1,51 @@
+@media screen and (max-width: 320px) {
+    .navigationBar{
+        display: none;
+    }
+    .wrapper{
+        background: black;
+    }
+    .menu{
+        width: 133px;
+        height: 27px;
+    }
+    #Logo{
+        width: 205px;
+        height: 74px;
+        margin-top: 0;
+    }
+    .news{
+        margin-bottom: 35px;
+    }
+    h2{
+        font-size: 24px;
+    }
+
+    .banner-pic, .abstraction{
+        display: none;
+    }
+    .banner-pic-mobile, .abstraction-mobile{
+        display: grid;
+    }
+    .button{
+        width: 106px;
+        height: 30px;
+        margin: 0;
+    }
+    .buttons{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .slogan{
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0;
+        padding: 0;
+    }
+    .col-1-4 img{
+        width: 125%
+    }
+    .col-5{
+        width: 75%;
+    }
+}
